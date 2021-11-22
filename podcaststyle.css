@@ -1,0 +1,35 @@
+body{
+    background-color: white;
+    font-family: 'didot';
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+
+
+}
+a:hover {
+    border-style: dotted;
+    border-color: gold;
+    border-radius: 10px;
+    border-width: 10px;
+    
+  }
+h1{
+
+    color:#52796f;
+}
+a{
+   
+    color:#fb8394;
+    font-size: 40px;
+}
+p{
+    padding-top: 100px;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+    
