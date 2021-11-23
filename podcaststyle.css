@@ -5,7 +5,7 @@ body{
     text-transform: uppercase;
     font-size: 20px;
     text-align: center;
-
+    border-top: #52796f;
 
 }
 a:hover {
@@ -19,14 +19,33 @@ h1{
 
     color:#52796f;
 }
-a{
-   
-    color:#fb8394;
-    font-size: 40px;
+
+a:link, a:visited {
+        background-color: #fb8394;;
+        color: white;
+        padding: 14px 25px;
+        font-size: 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 20px;
 }
-p{
-    padding-top: 100px;
+button{
+    background-color: WHITE;;
+    color: green;
+    padding: 14px 25px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    font-family: 'didot';
+    font-style: italic;
+    border-style: dotted;
+    border-color: #52796f;
 }
+
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     [class*="col-"] {
