@@ -8,6 +8,11 @@
        </head>
 
     <body>
+        
+        <h2>which episode of </h2>
+        <h1>This <br> American <br> Life</h1> 
+        <h2>should gilda listen to?</h2>
+        <br>
         <script>
             var myArray = [
                     "<a href='https://tal.fm/1'>Episode 1</a>",
@@ -775,15 +780,15 @@
         
         var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
         
-        document.body.innerHTML = randomItem;
+        document.body.innerHTML += randomItem;
         </script> 
-
-        <h1>howdy handsome</h1>
-        <h2>click above <br>for a random <br>episode of </h2>
-        <h1>This American Life.</h1> 
-        <p> ♡ refresh the page for a new one ♡ </p>
-        <img src="pod.gif" alt="some guy"  height="100px">
-        <p>p.s i.l.y.f</p>
+<br>
+<br>
+<button onClick="window.location.reload();">NOT THAT ONE</button>
+<br>
+<br>
+<img src="pod.gif" alt="some guy"  height="100px">
+<p>p.s i.l.y.f</p>
         
     </body>
 </html>
